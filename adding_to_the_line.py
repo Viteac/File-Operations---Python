@@ -1,5 +1,5 @@
-file = 'kaczka.txt'
-new_file = 'kaczka3.txt'
+file = 'file1.txt'
+new_file = 'file2.txt'
 
 with open(file) as f:  # Open the file to read
     read = f.readlines()
