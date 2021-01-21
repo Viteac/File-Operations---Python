@@ -81,17 +81,6 @@ def choice_menu():
 
 
 
-
-
-
-
-
-  #while choice not in range(1,4):
-                #print('Try again. Choose between 1 - 3')
-                #pass
-        #return choice
-#enumeration()
-
 choice = choice_menu()
 
 
