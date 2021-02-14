@@ -35,7 +35,6 @@ for f in os.listdir():
     if f.endswith(ex):
         c += 1
         b = f'{os.getcwd()}/{f}'
-        #print(f'Moving file: {f}')
         s=  shutil.move(f, f'{prz}')
         print(type(s))
         to = '\u001b[33m' + 'to' + '\u001b[0m'
