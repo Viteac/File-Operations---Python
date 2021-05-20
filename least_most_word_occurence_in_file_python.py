@@ -9,7 +9,7 @@ for word in words:   # Strip the words of punctuation
 
 most_common_item = max(words, key=words.count)
 count_word_most = words.count(most_common_item)
-print(f'Least common occurs {count_word_most} times: \n {most_common_item}')
+print(f'Most common occurs {count_word_most} times: \n {most_common_item}')
 
 
 least_common_item = min(words, key=words.count)
